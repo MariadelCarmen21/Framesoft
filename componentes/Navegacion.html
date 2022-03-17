@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--En titulo pongan el nombre de su elemento-->
+    <title>Navegación</title>
+  </head>
+  <body>
+    <header>
+      <h1>ISoft</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Icons</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        <!--Esta va a ser la barra  que va a un ladito :) .-->
+    <aside>
+      <h2>Sidebar</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi esse
+        libero odio harum ex est, tempora veniam, nobis voluptate praesentium
+        voluptatem dolorum itaque, ab sunt sint quisquam rem nulla earum!
+      </p>
+    </aside>
+    <div class="elemento">
+      <!-- Cambien "titulo de su elemento" por el nombre del que les toco-->
+        <h2 id="tituloc">Navegación</h2>
+      <section class="descripcion">
+        <!-- Esta parte va a ir la descripcion del elemento, para q sirve etc-->
+        <div>
+          <h2 id="subc">Descripcion</h2>
+          <p id="textc" id="desc">
+            La navegación disponible en Bootstrap comparte marcas y estilos generales, desde la clase base 
+                        .nav hasta los estados activo y deshabilitado. Cambia las clases de modificadores para cambiar entre cada estilo.
+                    El componente base .nav está construido con flexbox y proporciona una base sólida para construir todo 
+                        tipo de componentes de navegación. Incluye algunas anulaciones de estilo (para trabajar con listas), algo de relleno 
+                        de enlaces para áreas de acceso más grandes y estilo básico deshabilitado.
+          </p>
+        </div>
+      </section>
+      <!-- En esta parte va los ejemplos puse 3 div para 3 ejemplos pero pueden poner mas-->
+      <section>
+        <h2 id="subc">Ejemplos:</h2>
+
+        <div id="ej">
+          <div>
+            <!--En este div pogan su codigo para que se vea el elemento (puse un ejemplo eso lo borran y cambien por los suyos)-->
+            <footer>
+              <ul class="ftNav">
+                <nav class="nav">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link disabled">Disabled</a>
+                  </nav>
+              </ul>
+            </footer>
+          </div>
+
+          <div class="codigo">
+            <pre><code>
+                <!--aqui ponen el codigo de su elemento para que se vea el codigo
+                     (puse un ejemplo de como se hace para que se vea el codigo en la pagina
+                     se tiene que cambiar los "< y >" por "&lt; y &gt; ")-->
+
+                     &lt; class="nav">
+                        &lt;  class="nav-link active" aria-current="page" href="#">Active&gt;
+                        &lt;  class="nav-link" href="#">Link&gt;
+                        &lt;  class="nav-link" href="#">Link&gt;
+                        &lt; class="nav-link disabled">Disabled&gt;
+                      
+
+                </code></pre>
+                <!--Aqui va para q sirve y como se usariaaaaaaaaaaaaaaaaa-->
+                <div id=" textc">
+                  <p>  Use ul , ol si el orden de sus elementos es importante, o arroje el suyo propio con un 
+                    elemento nav. Debido a que .nav usa display: flex, los enlaces de navegación se comportan igual que 
+                    los elementos de navegación, pero sin el marcado adicional.
+                    Para transmitir el estado activo a las tecnologías de asistencia, use el atributo aria-current: 
+                    use el valor de página para la página actual o verdadero para el elemento actual en un conjunto.
+                    Las clases se utilizan en todo momento, por lo que su marcado puede ser súper flexible. 
+                </p>
+                </div>
+          </div>
+        </div>
+
+        <!--Estos son los otros 2 div para los otros ejemplos -->
+
+        <div id="ej">
+          <div>
+
+            <nav class="menu">
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="codigo">
+            <pre><code>
+
+              &lt;nav class="menu"&gt;
+              &lt;ul&gt;
+              &lt;li&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="#"&gt;Sobre nosotros&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="#"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+              &lt;/nav&gt;
+
+                </code></pre>
+                <div id="textc"><p>
+                  En este ejemplo, un bloque &lt;nav&gt;  es usado para contener una lista no ordenada (&lt;ul&gt;) de enlaces. 
+                    Con el CSS apropiado, esto puede ser presentado como una barra lateral, una barra de navegación 
+                    o un menú desplegable.
+
+                </p></div>
+          </div>
+        </div>
+
+        <div id="ej">
+          <div>
+
+            <nav>
+              <ul>
+                <li><a href="cursohtml.html">Curso de Html5</a></li>
+                <li><a href="cursocss.html">Curso de CSS</a></li>
+                <li><a href="cursojavascript.html">Curso de Javascript</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="codigo">
+            <pre><code>
+
+              &lt;nav>
+                <ul>
+                  &lt;li&gt;&lt;a href="cursohtml.html"&gt;Curso de Html5&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href="cursocss.html"&gt;Curso de CSS&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href="cursojavascript.html"&gt;Curso de Javascript&lt;/a&gt;&lt;/li&gt;
+                  &lt;/ul&gt;
+              &lt;/nav&gt;
+
+                </code></pre>
+                <div id="textc"><p>
+                  Ésta etiqueta es para enlaces que favorezcan la navegación por la web, que nos dirijan a zonas importantes.
+                </p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    </main>
+
+    <!--Apartir de aqui va el footer (no es necesario que agreguen nada aun )-->
+    <footer class="principal">
+      <p class="compañia">© 2022 compañia, Inc</p>
+
+      <img src="image/ejLogo.png" alt="Ejemplo de logo" />
+
+      <ul class="ftNav">
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+      </ul>
+
+      <ul class="ftNav">
+        <li class="iconosRedes">
+          <a class="iconos" href="#"
+            ><img src="image/facebook.png" alt="facebook"
+          /></a>
+        </li>
+        <li class="iconosRedes">
+          <a class="iconos" href="#"></a
+          ><img src="image/instagram.png" alt="instagram" />
+        </li>
+        <li class="iconosRedes">
+          <a class="iconos" href="#"></a
+          ><img src="image/twitter.png" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

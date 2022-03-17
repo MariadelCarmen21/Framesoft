@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--En titulo pongan el nombre de su elemento-->
+    <title>Alertas</title>
+  </head>
+  <body>
+    <header>
+      <h1>ISoft</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Icons</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        <!--Esta va a ser la barra  que va a un ladito :) .-->
+    <aside>
+      <h2>Sidebar</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi esse
+        libero odio harum ex est, tempora veniam, nobis voluptate praesentium
+        voluptatem dolorum itaque, ab sunt sint quisquam rem nulla earum!
+      </p>
+    </aside>
+    <div class="elemento">
+      <!-- Cambien "titulo de su elemento" por el nombre del que les toco-->
+        <h2 id="tituloc">Alert</h2>
+      <section class="descripcion">
+        <!-- Esta parte va a ir la descripcion del elemento, para q sirve etc-->
+        <div>
+          <h2 id="subc">Descripcion</h2>
+          <p id="textc" id="desc">
+            Este tipo de mensajes se utilizan normalmente para proporcionar al usuario información 
+            contextual sobre el resultado de sus acciones.
+            El método alerta  window.alert(), despliega un cuadro de texto el cual no requiere información 
+            por parte del usuario. Una vez que la función es invocada, el mensaje de alerta aparecerá con el aviso (opcional)                         
+            correspondiente. El usuario necesitará confirmar el mensaje para que el mensaje de alerta desaparezca.
+          </p>
+        </div>
+      </section>
+      <!-- En esta parte va los ejemplos puse 3 div para 3 ejemplos pero pueden poner mas-->
+      <section>
+        <h2 id="subc">Ejemplos:</h2>
+
+        <div id="ej">
+          <div>
+            <!--En este div pogan su codigo para que se vea el elemento (puse un ejemplo eso lo borran y cambien por los suyos)-->
+            <footer>
+              <ul class="ftNav">
+                <div class="alert alert-success">¡Bien hecho!</div>
+                 <div class="alert alert-info">¡Atento! Este mensaje requiere de tu atención</div>
+                <div class="alert alert-warning">¡Cuidado!</div>
+                <div class="alert alert-danger">¡Error!</div>
+              </ul>
+            </footer>
+          </div>
+
+          <div class="codigo">
+            <pre><code>
+                <!--aqui ponen el codigo de su elemento para que se vea el codigo
+                     (puse un ejemplo de como se hace para que se vea el codigo en la pagina
+                     se tiene que cambiar los "< y >" por "&lt; y &gt; ")-->
+
+                     &lt; class="alert alert-success">¡Bien hecho!&gt;
+                    &lt; class="alert alert-info">¡Atento! Este mensaje requiere de tu atención&gt;
+                    &lt; class="alert alert-warning">¡Cuidado!&gt;
+                   &lt; class="alert alert-danger">¡Error!&gt;
+
+                </code></pre>
+                <!--Aqui va para q sirve y como se usariaaaaaaaaaaaaaaaaa-->
+                <div id=" textc">
+                  <p>Para mostrar un mensaje de alerta, encierra dentro de un elemento con la clase .alert tanto el 
+                    texto del mensaje como el botón opcional para ocultar la alerta. Además de esta clase base, también debes aplicar 
+                    cualquiera de las otras cuatro clases .alert-* para indicar explícitamente el tipo de mensaje (advertencia, error, éxito, información).
+                </p>
+                </div>
+          </div>
+        </div>
+
+        <!-- Cambien "titulo de su elemento" por el nombre del que les toco-->
+        <h2 id="tituloc">Confirm</h2>
+        <div id="ej">
+          <div>
+            <!--En este div pogan su codigo para que se vea el elemento (puse un ejemplo eso lo borran y cambien por los suyos)-->
+            <footer>
+              <ul class="ftNav">
+                <img src="https://mdn.mozillademos.org/files/7163/firefoxcomfirmdialog_zpsf00ec381.png" alt="">
+              </ul>
+            </footer>
+          </div>
+
+          <div class="codigo">
+            <pre><code>
+                <!--aqui ponen el codigo de su elemento para que se vea el codigo
+                     (puse un ejemplo de como se hace para que se vea el codigo en la pagina
+                     se tiene que cambiar los "< y >" por "&lt; y &gt; ")-->
+
+                     &lt;var resultado = window.confirm('Estas seguro?');&gt;
+                     &lt;if (resultado === true) {&gt;
+                        &lt; window.alert('Okay, si estas seguro.');&gt;
+                        &lt;} else { &gt;
+                            &lt;window.alert('Pareces indeciso');&gt;
+                            &lt;}&gt;
+
+                </code></pre>
+                <!--Aqui va para q sirve y como se usariaaaaaaaaaaaaaaaaa-->
+                <div id=" textc">
+                  <p>
+                    El método de confirmación window.confirm(), es similar al  window.alert(), 
+                        pero además muestra un botón de cancelación en el cuadro de texto.
+                    Los botones reflejan los valores booleanos: verdadero para OK y falso para Cancelar.    
+                </p>
+                </div>
+          </div>
+        </div>
+
+        <!-- Cambien "titulo de su elemento" por el nombre del que les toco-->
+        <h2 id="tituloc">Promt</h2>
+        <div id="ej">
+          <div>
+            <!--En este div pogan su codigo para que se vea el elemento (puse un ejemplo eso lo borran y cambien por los suyos)-->
+            <footer>
+              <ul class="ftNav">
+                <img src="https://mdn.mozillademos.org/files/11303/prompt.png" alt=""
+                width="450px"
+                lenght="450px">
+              </ul>
+            </footer>
+          </div>
+
+          <div class="codigo">
+            <pre><code>
+                <!--aqui ponen el codigo de su elemento para que se vea el codigo
+                     (puse un ejemplo de como se hace para que se vea el codigo en la pagina
+                     se tiene que cambiar los "< y >" por "&lt; y &gt; ")-->
+
+                     &lt; var edad = prompt('¿Whats your sign?', '100');&gt;
+
+                </code></pre>
+                <!--Aqui va para q sirve y como se usariaaaaaaaaaaaaaaaaa-->
+                <div id=" textc">
+                  <p>
+                    El método para solicitar información window.prompt(), es generalmente utilizado para requerir 
+                        información del usuario.
+                    Esta función puede tomar dos argumentos, los cuales pueden ser opcionales: el primero 
+                    es el mensaje que se mostraría al usuario, y el segundo es un valor predeterminado que se mostraría en el cuadro de texto.
+
+                </p>
+                </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    </main>
+
+    <!--Apartir de aqui va el footer (no es necesario que agreguen nada aun )-->
+    <footer class="principal">
+      <p class="compañia">© 2022 compañia, Inc</p>
+
+      <img src="image/ejLogo.png" alt="Ejemplo de logo" />
+
+      <ul class="ftNav">
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+      </ul>
+
+      <ul class="ftNav">
+        <li class="iconosRedes">
+          <a class="iconos" href="#"
+            ><img src="image/facebook.png" alt="facebook"
+          /></a>
+        </li>
+        <li class="iconosRedes">
+          <a class="iconos" href="#"></a
+          ><img src="image/instagram.png" alt="instagram" />
+        </li>
+        <li class="iconosRedes">
+          <a class="iconos" href="#"></a
+          ><img src="image/twitter.png" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

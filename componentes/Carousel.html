@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--En titulo pongan el nombre de su elemento-->
+    <title>Elementos</title>
+</head>
+
+<body>
+    <header>
+        <h1>iSoft</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Icons</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Esta va a ser la barra  que va a un ladito :) .-->
+        <aside>
+            <h2>Sidebar</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi esse
+                libero odio harum ex est, tempora veniam, nobis voluptate praesentium
+                voluptatem dolorum itaque, ab sunt sint quisquam rem nulla earum!
+            </p>
+        </aside>
+        <div class="elemento">
+            <!-- Cambien "titulo de su elemento" por el nombre del que les toco-->
+            <h2 id="tituloc">Carousel</h2>
+            <section class="descripcion">
+                <!-- Esta parte va a ir la descripcion del elemento, para q sirve etc-->
+                <div>
+                    <h2 id="subc">Descripcion</h2>
+                    <p id="textc" id="desc">
+                        Un componente de presentación de diapositivas para recorrer elementos
+                        (imágenes o diapositivas de texto) como un carrusel.
+                    </p>
+                </div>
+            </section>
+            <!-- En esta parte va los ejemplos puse 3 div para 3 ejemplos pero pueden poner mas-->
+            <section>
+                <h2 id="subc">Ejemplos:</h2>
+
+                <div id="ej">
+                    <div>
+                        <h1>Simples diapositivas</h1>
+                        <!--En este div pogan su codigo para que se vea el elemento (puse un ejemplo eso lo borran y cambien por los suyos)-->
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="..." class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="..." class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="..." class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="codigo">
+                        <pre><code>
+                <!--aqui ponen el codigo de su elemento para que se vea el codigo
+                     (puse un ejemplo de como se hace para que se vea el codigo en la pagina
+                     se tiene que cambiar los "< y >" por "&lt; y &gt; ")-->
+                     &lt;div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"&gt;
+                        &lt;div class="carousel-inner"&gt;
+                            &lt;div class="carousel-item active"&gt;
+                            &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                            &lt;/div&gt;
+                          &lt;div class="carousel-item"&gt;
+                            &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                            &lt;/div&gt;
+                          &lt;div class="carousel-item"&gt;
+                            &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+
+                </code></pre>
+                        <!--Aqui va para q sirve y como se usariaaaaaaaaaaaaaaaaa-->
+                        <div id=" textc">
+                            <p>Tenga en cuenta la presencia de .d-blocky 
+                            .w-100en las imágenes del carrusel para evitar la 
+                            alineación de imágenes predeterminada del navegador.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Estos son los otros 2 div para los otros ejemplos -->
+
+                <div id="ej">
+                    <div>
+                        <h1>Con controles</h1>
+                        <!--En este div pogan su codigo para que se vea el elemento (puse un ejemplo eso lo borran y cambien por los suyos)-->
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                    <div class="codigo">
+                        <pre><code>
+                <!--aqui ponen el codigo de su elemento para que se vea el codigo
+                     (puse un ejemplo de como se hace para que se vea el codigo en la pagina
+                     se tiene que cambiar los "< y >" por "&lt; y &gt; ")-->
+                     &lt;div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"&gt;
+                     &lt;div class="carousel-inner"&gt;
+                        &lt;div class="carousel-item active"&gt;
+                          &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                            &lt;/div&gt;
+                          &lt;div class="carousel-item"&gt;
+                          &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                            &lt;/div&gt;
+                          &lt;div class="carousel-item"&gt;
+                          &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"&gt;
+                        &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt;&lt;/span&gt;
+                            &lt;span class="visually-hidden"&gt;Previous&lt;/span&gt;
+                            &lt;/button&gt;
+                        &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"&gt;
+                        &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt;&lt;/span&gt;
+                          &lt;span class="visually-hidden"&gt;Next &lt; /span &gt;
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+
+                </code></pre>
+                        <!--Aqui va para q sirve y como se usariaaaaaaaaaaaaaaaaa-->
+                        <div id=" textc">
+                            <p>Agregar los controles anterior y siguiente.
+                             Recomendamos usar &lt;button&gt; elementos, 
+                            pero también puede usar &lt;a&gt; elementos con role="button".
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ej">
+                    <div>
+                        <h1>Intervalo individual</h1>
+                        <!--En este div pogan su codigo para que se vea el elemento (puse un ejemplo eso lo borran y cambien por los suyos)-->
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                    <div class="codigo">
+                        <pre><code>
+                <!--aqui ponen el codigo de su elemento para que se vea el codigo
+                     (puse un ejemplo de como se hace para que se vea el codigo en la pagina
+                     se tiene que cambiar los "< y >" por "&lt; y &gt; ")-->
+                     &lt;div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"&gt;
+                     &lt;div class="carousel-inner"&gt;
+                     &lt;div class="carousel-item active" data-bs-interval="10000"&gt;
+                     &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                     &lt;/div&gt;
+                     &lt;div class="carousel-item" data-bs-interval="2000"&gt;
+                     &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                     &lt;/div&gt;
+                     &lt;div class="carousel-item"&gt;
+                     &lt;img src="..." class="d-block w-100" alt="..."&gt;
+                     &lt;/div&gt;
+                     &lt;/div&gt;
+                     &lt;button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev"&gt;
+                     &lt;span class="carousel-control-prev-icon" aria-hidden="true"&gt; &lt;/span&gt;
+                     &lt;span class="visually-hidden"&gt;Previous &lt;/span&gt;
+                     &lt;/button&gt;
+                     &lt;button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next"&gt;
+                     &lt;span class="carousel-control-next-icon" aria-hidden="true"&gt; &lt;/span&gt;
+                     &lt;span class="visually-hidden">Next &lt;/span&gt;
+                     &lt;/button&gt;
+                     &lt;/div&gt;
+
+                </code></pre>
+                        <!--Aqui va para q sirve y como se usariaaaaaaaaaaaaaaaaa-->
+                        <div id=" textc">
+                            <p>Agregar los controles anterior y siguiente.
+                             Recomendamos usar &lt;button&gt; elementos, 
+                            pero también puede usar &lt;a&gt; elementos con role="button".
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--Apartir de aqui va el footer (no es necesario que agreguen nada aun )-->
+    <footer class="principal">
+        <p class="compañia">© 2022 compañia, Inc</p>
+
+        <img src="image/ejLogo.png" alt="Ejemplo de logo" />
+
+        <ul class="ftNav">
+            <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+        </ul>
+
+        <ul class="ftNav">
+            <li class="iconosRedes">
+                <a class="iconos" href="#"><img src="image/facebook.png" alt="facebook" /></a>
+            </li>
+            <li class="iconosRedes">
+                <a class="iconos" href="#"></a><img src="image/instagram.png" alt="instagram" />
+            </li>
+            <li class="iconosRedes">
+                <a class="iconos" href="#"></a><img src="image/twitter.png" alt="twitter" />
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
