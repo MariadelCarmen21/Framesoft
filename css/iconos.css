@@ -1,0 +1,10 @@
+#iconos{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.grid-container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;  
+  }

@@ -1,0 +1,54 @@
+@import url(../css/variables.css);
+
+#botondesc{
+ margin-top: 3%;
+ margin-left: 3%;
+ border: none;
+   
+}
+button span{
+   color: #5F6A6A;
+}
+button span:hover{
+    color: #000;
+ }
+#tituloc{
+    font-family: fuentelalo;
+    font-size: 350%;
+    margin-left: 3%;
+}
+#tex{
+    font-family: fuentelalo;
+    margin-left: 3%;
+    width: 90%;
+    margin-top: 4%;
+    margin-block-end: 3%;
+}
+#textc{
+    font-family: fuentelalo;
+    margin-left: 3%;
+    width: 90%;
+    margin-top: 3%;
+    margin-block-end: 3%;
+}
+#subc{
+    font-family: fuentelalo;
+    margin-left: 3%;
+    width: 90%;
+    margin-top: 3%;
+} 
+
+#component{
+    margin-left: 3%;
+    width: 90%;
+    margin-top: 3%;
+    background-color: white;
+}
+pre{
+    background: #17202A ;
+    width: 90%;
+    margin-left: 3%;
+    width: 90%;
+  margin-top: 1%;
+    border-radius: 1%;
+}

@@ -1,0 +1,70 @@
+/*Todo*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*Header*/
+header {
+  display: flex;
+  min-height: 15vh;
+  backdrop-filter: blur(10px);
+  font-family: sans-serif;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#pluma{
+  width: 6vw;
+  height: 12vh;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+}
+#he{
+  width: 100%;
+  background-color: transparent ;
+  justify-content: center;
+  margin-block-end: 2%;
+  margin-left: 2%;
+
+}
+header ul li {
+  display: inline-block;
+  margin-left: 9%;
+  margin-top: 3%;
+
+ 
+}
+
+header ul li a {
+color:#5F6A6A;
+text-decoration:none;
+font-family: fuente;
+font-size: 20px;
+margin-left: 5px;
+ 
+}
+header ul li a:hover {
+  color: #1E1627 ;
+  background-color: white;
+
+}
+header ul {
+  text-align:start;
+}
+
+
+
+footer.principal {
+  margin: 0%;
+  padding: 5px;
+  color: #e2e2d6;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:#BDC3C7    ;
+}

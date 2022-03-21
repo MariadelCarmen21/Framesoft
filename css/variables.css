@@ -1,0 +1,15 @@
+:root{
+
+}
+@font-face {
+    font-family: 'fuente';
+    src: url('../fuentes/Britania_Ligatura.otf');
+}
+@font-face {
+  font-family: 'fuentelalo';
+  src: url('../fuentes/Lato-Light.ttf');
+}
+@font-face {
+  font-family: 'logo';
+  src: url('../fuentes/Courgette-Regular.ttf');
+}
